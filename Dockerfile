@@ -1,5 +1,4 @@
-FROM centos:7
+FROM ubuntu:trusty
 
-RUN yum -y update \
-    && yum -y install epel-release \
-    && yum clean all
+RUN apt-get -y update \
+    && apt-get install -y python-minimal

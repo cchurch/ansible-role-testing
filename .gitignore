@@ -1,0 +1,5 @@
+*.pyc
+*.pyo
+*.retry
+.tox
+tests/roles/chrismeyersfsu.provision_docker

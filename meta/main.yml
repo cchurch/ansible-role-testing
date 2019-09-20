@@ -1,0 +1,33 @@
+---
+
+galaxy_info:
+  author: Chris Church
+  description: "Example role using Docker to run tests across various platforms and Ansible versions."
+  company: Nine More Minutes, Inc.
+  license: BSD
+  min_ansible_version: 2.4
+  platforms:
+    - name: Amazon
+      versions:
+        - "2016.09"
+    - name: ArchLinux
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+        - buster
+    - name: EL
+      versions:
+        - '6'
+        - '7'
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
+  galaxy_tags:
+    - development
+allow_duplicates: true
+dependencies: []

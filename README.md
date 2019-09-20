@@ -1,6 +1,10 @@
-# Docker Images for Testing Ansible Roles
+# Ansible Role Testing
 
 The [master branch](/cchurch/ansible-role-testing/tree/master) includes this
-README and any other common files.
+example role and related files used for running tests against multiple Ansible
+versions and distributions.
 
-Each image type will have a `Dockerfile` in its own branch.
+# Docker Images for Testing Ansible Roles
+
+Other branches each include a `Dockerfile` used for building a custom Docker
+image than can be used when testing roles.

@@ -10,6 +10,7 @@ testing_amazon image="amazonlinux:latest"
 testing_arch image="archlinux/base"
 testing_centos6 image="centos:6"
 testing_centos7 image="centos:7"
+testing_centos8 image="centos:8"
 testing_debian8 image="debian:jessie"
 testing_debian9 image="debian:stretch"
 testing_debian10 image="debian:buster"
@@ -39,6 +40,12 @@ testing_centos6
 
 [centos7]
 testing_centos7
+
+[centos8]
+testing_centos8
+
+[centos8:vars]
+ansible_python_interpreter=/usr/libexec/platform-python
 
 [debian:children]
 debian8

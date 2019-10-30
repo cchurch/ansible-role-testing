@@ -1,5 +1,5 @@
-Contributing to Admin Users
-===========================
+Contributing to Role Testing
+============================
 
 Requirements
 ------------
@@ -26,15 +26,11 @@ to create and initialize the Docker containers. Then run `make test-only` to
 execute the test playbook against the containers, and repeat as needed until the
 tests pass. Finally, run `make cleanup` to destroy the Docker containers.
 
-To run tests against a subset of the supported platforms, 
-
-
-
 Suggestions
 -----------
 
 *   If you're wanting to make larger changes or feature additions, consider
     opening an issue first for discussion.
-*   Don't forget to update README.md if any role parameters are changed.
-*   
-
+*   Update `README.md` if any role parameters are changed.
+*   Update `meta/main.yml` if supported platforms or Ansible versions are
+    changed.

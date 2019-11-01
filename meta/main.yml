@@ -1,6 +1,7 @@
 ---
 
 galaxy_info:
+  role_name: testing
   author: Chris Church
   description: "Example role using Docker to run tests across various platforms and Ansible versions."
   company: Nine More Minutes, Inc.

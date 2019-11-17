@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:8
 
 # From Systemd integration section on https://hub.docker.com/_/centos
 

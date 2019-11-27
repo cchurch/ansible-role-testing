@@ -8,15 +8,14 @@ galaxy_info:
   license: BSD
   min_ansible_version: 2.4
   platforms:
-    - name: Amazon
+    - name: "Amazon Linux 2"
       versions:
-        - "2016.09"
+        - 'any'
     - name: ArchLinux
       versions:
         - all
     - name: Debian
       versions:
-        - jessie
         - stretch
         - buster
     - name: EL
@@ -26,7 +25,6 @@ galaxy_info:
         - '8'
     - name: Ubuntu
       versions:
-        - trusty
         - xenial
         - bionic
   galaxy_tags:

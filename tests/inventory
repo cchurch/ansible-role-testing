@@ -11,10 +11,8 @@ testing_arch image="archlinux/base"
 testing_centos6 image="centos:6"
 testing_centos7 image="centos:7"
 testing_centos8 image="centos:8"
-testing_debian8 image="debian:jessie"
 testing_debian9 image="debian:stretch"
 testing_debian10 image="debian:buster"
-testing_ubuntu14 image="ubuntu:trusty"
 testing_ubuntu16 image="ubuntu:xenial"
 testing_ubuntu18 image="ubuntu:bionic"
 
@@ -34,6 +32,7 @@ ansible_python_interpreter=/usr/bin/python3
 [centos:children]
 centos6
 centos7
+centos8
 
 [centos6]
 testing_centos6
@@ -48,12 +47,8 @@ testing_centos8
 ansible_python_interpreter=/usr/libexec/platform-python
 
 [debian:children]
-debian8
 debian9
 debian10
-
-[debian8]
-testing_debian8
 
 [debian9]
 testing_debian9
@@ -62,12 +57,8 @@ testing_debian9
 testing_debian10
 
 [ubuntu:children]
-ubuntu14
 ubuntu16
 ubuntu18
-
-[ubuntu14]
-testing_ubuntu14
 
 [ubuntu16]
 testing_ubuntu16

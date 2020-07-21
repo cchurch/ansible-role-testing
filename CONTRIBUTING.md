@@ -4,7 +4,7 @@ Contributing to Role Testing
 Requirements
 ------------
 
-Development and testing is currently using Python 3.7, Ansible 2.8 and Docker.
+Development and testing is currently using Python 3.8, Ansible 2.9 and Docker.
 
 Create a Python virtualenv and run (this command will install dependencies from
 both PyPI and Ansible-Galaxy)::

@@ -6,7 +6,7 @@ galaxy_info:
   description: "Example role using Docker to run tests across various platforms and Ansible versions."
   company: Nine More Minutes, Inc.
   license: BSD
-  min_ansible_version: 2.4
+  min_ansible_version: 2.8
   platforms:
     - name: "Amazon Linux 2"
       versions:

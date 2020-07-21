@@ -27,6 +27,7 @@ galaxy_info:
       versions:
         - xenial
         - bionic
+        - focal
   galaxy_tags:
     - development
 allow_duplicates: true
